@@ -1,0 +1,25 @@
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+
+.supremo {
+    color: gold;
+}
+
+.legendario {
+    color: greenyellow;
+}
+
+.poderoso {
+    color: purple;
+}
+
+.normal {
+    color: gray;
+}

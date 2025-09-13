@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <ul id="lista-dioses">
+
+  </ul>
+
+  <form id="form-dioses">
+    <input type="text" placeholder="Nombre" id="nombre-dios" required>
+    <input type="text" placeholder="Dominio" id="dominio-dios" required>
+    <input type="text" placeholder="Simbolo" id="simbolo-dios" required>
+    <input type="number" placeholder="Poder" id="poder-dios" required>
+    <input type="text" placeholder="Ciudad" id="ciudad-dios" required>
+    <input type="submit">
+  </form>
+
+  <section class="ocultar" id="form-act-container">
+    <form id="form-dioses-actualizar">
+    <input type="text" placeholder="Nombre" id="nombre-dios-act" required>
+    <input type="text" placeholder="Dominio" id="dominio-dios-act" required>
+    <input type="text" placeholder="Simbolo" id="simbolo-dios-act" required>
+    <input type="number" placeholder="Poder" id="poder-dios-act" required>
+    <input type="text" placeholder="Ciudad" id="ciudad-dios-act" required>
+    <input type="submit">
+  </form>
+  </section>
+
+  <button id="filtar-dioses">Filtar dioses</button>
+
+  <section>
+    <input type="text" id="atributo" placeholder="Atributo para filtrar">
+    <button id="filtar-dioses-atributo">Filtar por atributo</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
